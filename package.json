@@ -1,0 +1,22 @@
+{
+  "name": "@vueui/message",
+  "version": "0.0.1",
+  "description": "Semantic UI message Vue component",
+  "main": "index.js",
+  "scripts": {
+    "dev": "http-server --cors -o example && webpack --watch"
+  },
+  "author": "Agon Bina <agon_bina@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "domready": "^1.0.8",
+    "vue": "^0.12.12",
+    "babel-core": "^5.6.15",
+    "babel-loader": "^5.2.2",
+    "html-loader": "^0.3.0",
+    "jade": "^1.11.0",
+    "jade-html-loader": "0.0.2",
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.10.0"
+  }
+}
